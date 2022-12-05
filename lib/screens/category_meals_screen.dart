@@ -19,7 +19,7 @@ class CategoryMealsScreen extends StatefulWidget {
 }
 
 class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
-
+  var temp;
   var categoryTitle;
   late List<Meal> displayMeals;
   var _loadedInitData = false;
